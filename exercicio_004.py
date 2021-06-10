@@ -1,0 +1,16 @@
+palavra = input("Digite algo para ser analisado :")
+
+print("O tipo primitivo desta variável é :", type(palavra))
+
+print("{} é numérico ?".format(palavra), palavra.isnumeric())
+print("{} é decimal ?".format(palavra), palavra.isdecimal())
+print("{} é alfanumérico ?".format(palavra), palavra.isalnum())
+print("{} é alfabético ?".format(palavra), palavra.isalpha())
+print("{} é da tabela ascii ?".format(palavra), palavra.isascii())
+print("{} é dígito ?".format(palavra), palavra.isdigit())
+print("{} é maiúsculo ?".format(palavra), palavra.isupper())
+print("{} é minúsculo ?".format(palavra), palavra.islower())
+print("{} é capitalizada ?".format(palavra), palavra.istitle())
+print("{} é identificador ?".format(palavra), palavra.isidentifier())
+print("{} é imprimível ?".format(palavra), palavra.isprintable())
+print("{} só contém espaços ?".format(palavra), palavra.isspace())
