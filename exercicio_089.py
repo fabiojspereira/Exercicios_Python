@@ -8,8 +8,8 @@ while continua_001 == True :
 	nome = str(input("\nDigite o nome do aluno : ")).strip()
 	n1 = float(input("Digite a primeira nota : "))
 	n2 = float(input("Digite a segunda nota : "))
-	media = (n1 + n2) / 2
 
+	media = (n1 + n2) / 2
 	cadastro.append ( [ nome, [ n1, n2 ], media ] )
 
 	continua_002 = True
