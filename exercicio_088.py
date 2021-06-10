@@ -46,8 +46,3 @@ print("\n\033[1;30;46m          \033[m : Jogo gerado sem duplicidade de números
 print("\033[1;30;41m          \033[m : Jogo gerado com duplicidade de 1 ou mais números.")
 print("\033[1;30;42m          \033[m : Jogo corrigido.")
 print("\nListagem de jogos gerada ! Boa sorte !")
-
-
-
-#print(lista_de_jogos)
-
