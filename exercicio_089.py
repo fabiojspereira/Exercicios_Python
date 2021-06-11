@@ -27,7 +27,8 @@ while continua_001 == True :
 
 print(f"\n\033[1;30;46m{'Nº':<5}{'NOME DO ALUNO':<15}{'MÉDIA':<5}\033[m")
 for count in range( 0, len(cadastro) ) :
-	print("{:<5}{:<15}{:<5}".format(count+1,cadastro[count][0],cadastro[count][2]))
+	#print("{:<5}{:<15}{:<5}".format(count+1,cadastro[count][0],cadastro[count][2]))
+	print(f'{count+1:^5}{cadastro[count][0]:^15}{cadastro[count][2]:^5}')
 
 continua_003 = 0
 while continua_003 != 999 :
