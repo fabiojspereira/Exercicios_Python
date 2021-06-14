@@ -10,12 +10,3 @@ num1 = float(input("Vamos somar dois números. Digite o primeiro :"))
 num2 = float(input("Agora digite o segundo número para a soma :"))
 soma = num1 + num2
 print ("A soma dos números {} e {} resultou em {}.".format(num1,num2,soma))
-
-
-#print("Vamos fazer uma soma entre dois números.")
-#num1 = float(input("Digite o primeiro número : "))
-#print(type("OK! O primeiro número é : {}".format(num1)))
-#num2 = float(input("Agora digite o segundo número : "))
-#print(type("OK! O segundo número é : {}".format(num2)))
-#soma = num1 + num2
-#print("A soma dos números {} e {} é : {}".format(num1, num2, soma))
