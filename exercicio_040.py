@@ -14,4 +14,3 @@ elif m >= 5.0 and m <= 6.9:
 	print("O aluno está em \033[1;33mrecuperação\033[m. Média entre 5.0 e 6.9 : {:.1f}".format(m))
 elif m >= 7.0:
 	print("Aluno \033[1;32maprovado !\033[m Média igual ou superior à 7.0 : {:.1f}".format(m))
-

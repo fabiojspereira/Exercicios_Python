@@ -10,5 +10,4 @@ lista = [aluno_01, aluno_02, aluno_03, aluno_04]
 random.shuffle(lista)
 print ("Lista sorteada {}".format(lista))
 
-
 #random.shuffle([aluno_01, aluno_02, aluno_03, aluno_04])

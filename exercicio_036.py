@@ -20,6 +20,3 @@ if prestacao_mensal >= ( salario * 30 ) / 100:
 	print("{}, infelizmente a prestação mensal será de \033[4;31m30%\033[m ou mais do seu salário. O Empréstimo foi \033[1;31mnegado.\033[m".format(nome))
 elif prestacao_mensal < ( salario * 30 ) / 100:
 	print("Parabéns ! {}, sua solicitação foi \033[1;32maprovada.\033[m".format(nome))
-
-#FIM
-

@@ -69,5 +69,4 @@ if h_escolha == 3:
 		print("\n\033[1;37mDeu empate ! Todos escolheram a Tesoura !\033[m")
 		print("\033[37mHumano escolheu {} e o Computador escolheu {}.\033[m".format(lista[2], m_escolha))
 
-
 wait = input("\n\033[37mAperte [enter] para finalizar o jogo ...\033[m")

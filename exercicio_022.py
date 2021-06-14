@@ -13,4 +13,3 @@ print("Total de caracteres sem contar os espaços em branco : {}".format(len(nom
 
 primeiro_nome = len(partes[0])
 print("A quantidade de letras do primeiro nome, que é {}, é {}.".format(partes[0].capitalize(), primeiro_nome))
-

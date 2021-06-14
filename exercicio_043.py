@@ -19,4 +19,3 @@ elif imc >= 30 and imc < 40:
 	print("\n{}, você está com \033[1;31mobesidade\033[m.\nÍndice de Massa Corporia ( IMC ) : {:.1f}.".format(nome, imc))
 else:
 	print("\n{}, você está com \033[1;31mobesidade mórbida\033[m. Índice de Massa Corporia ( IMC ) : {:.1f}.".format(nome, imc))
-

@@ -6,10 +6,3 @@ nome_cidade_separada = nome_cidade.split()
 x = 'santo' in nome_cidade_separada[0].lower().strip()
 
 print("A cidade digitada começa com a palavra 'Santo' ? ", x)
-
-
-
-
-
-
-

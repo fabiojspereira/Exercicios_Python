@@ -15,4 +15,3 @@ elif count == 1:
 	print("Foi informado apenas um número par. A soma é {}.".format(soma))
 else:
 	print("foram informados {} números pares e a soma deles é {}".format(count,soma))
-

@@ -14,12 +14,9 @@ print("Print do lenght da variável 'len(nome_separado)' que retorna um número 
 print("Print do último item do conteúdo da lista 'nome_separado[len(nome_separado)-1]' : {}".format(nome_separado[len(nome_separado)-1]))
 print("Print do item 2 da lista 'nome_separado[2]' : {}".format(nome_separado[2]))
 
-
 #print(ultimo_nome_v1)
 #print(ultimo_nome_v2)
 #print(ultimo_nome_v3)
-
-
 
 #print("Seu primeiro nome é : {}.".format(primeiro_nome))
 #print("Seu último nome é : {}.".format(nome_separado))[len(nome_separado)-1]))

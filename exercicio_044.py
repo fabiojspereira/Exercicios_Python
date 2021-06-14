@@ -45,5 +45,3 @@ elif opt == 4:
 		print("\nForma de pagamento selecionada : ")
 		valor_novo = valor + ( valor * 20 ) / 100
 		print("4 - \033[1;32mPagamento Parcelado\033[m - 3x ou mais no Cartão	\n\nProduto                : {}\nQuantidade de parcelas : {} x de {:.2f}\nValor a ser pago       : R$ {:.2f}. \033[1;33mcom acréscimo de R$ {:.2f} ( 20% ).\033[m".format(produto, qtd_par, ( valor_novo / qtd_par ),valor_novo,( valor * 20 ) / 100))
-
-

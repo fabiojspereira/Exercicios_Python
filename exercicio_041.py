@@ -18,6 +18,3 @@ elif idade == 20:
 	print("\nO aluno {}, tem {} anos de idade e faz parte da categoria : \033[1;34mSênior\033[m".format(nome,idade))
 else:
 	print("\nO aluno {}, tem {} anos de idade e faz parte da categoria : \033[1;34mMaster\033[m".format(nome,idade))
-
-
-

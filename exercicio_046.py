@@ -15,5 +15,4 @@ for count in range(10,-1,-1): # pode colocar range (0,11,1)
 #print(emoji.emojize(":boom:", use_aliases=True))
 print(emoji.emojize("\n\033[1;31m:boom:\033[m \033[1;33m:boom:\033[m \033[1;36m:boom:\033[m :boom:", use_aliases=True))
 
-
 #print ("\033[1;31mBBuummmm !!!!\033[m   \033[1;33mBBBBuummm !!!!\033[m   \033[1;36mBBBBuummmm !!!!\033[m  BBBBBBuuummmm !!!! ")

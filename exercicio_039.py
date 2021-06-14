@@ -18,7 +18,3 @@ if sexo.upper() == "MASCULINO" or sexo.upper() == "M":
 		print("{}, você já passou do tempo de alistamento.\nIsso foi há {} ano(s).".format(nome,idade-serv_mil))
 else:
 	print("\nCidadão do sexo feminino não têm a obrigatoriedade de alistamento no serviço militar.")
-#FIM
-
-
-
