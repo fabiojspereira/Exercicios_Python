@@ -1,4 +1,4 @@
-lista_numeros = [ [],[] ]
+lista_numeros = [ [], [] ]
 
 for count in range ( 0, 7 ) :
 	n = int(input(f"Digite o {count+1}º número : "))

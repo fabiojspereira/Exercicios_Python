@@ -11,7 +11,7 @@ continua = continua_02 = True
 
 while continua == True:
 	lista_temporaria.append(str(input("Digite o nome da pessoa : ")).strip())
-	lista_temporaria.append(int(input("Digite o peso : ")))
+	lista_temporaria.append(float(input("Digite o peso : ")))
 	cadastro.append(lista_temporaria[:])
 	lista_temporaria.clear()  # ou lista_temporaria.pop(0) lista_temporaria.pop(0)
 	# print(f"último nome cadastrado : {cadastro[len(cadastro) - 1][0]}")
