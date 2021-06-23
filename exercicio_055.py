@@ -15,7 +15,6 @@ for pessoa in range (0, 5):
 print("\nA pessoa mais pesada tem : {:.1f} kgs".format(maior_peso))
 print("A pessoa mais leve tem : {:.1f} kgs ".format(menor_peso))
 
-
 '''
 maior_peso = 0
 menor_peso = 1000

@@ -15,4 +15,3 @@ for pessoa in range (0,7):
 
 print("\nA quantidade de pessoas maiores de idade é : {}".format(maior_idade))
 print("A quantidade de pessoas menores de idade é : {}".format((menor_idade)))
-

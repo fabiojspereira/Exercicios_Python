@@ -52,9 +52,6 @@ print(f"A quantidade de pessoas que tem mais de 18 anos de idade é : {qtd_pesso
 print(f"A quantidade de homens cadastrados foi de : {qtd_h}.")
 print(f"A quantidade de mulheres com menos de 20 anos de idade é : {mulheres_jovens}.")
 
-
-
-
 '''
 controle_01 = False
 while controle_01 == False:
@@ -80,7 +77,6 @@ while controle_01 == False:
 	# print("\033[1;31mOpção inválida. Tente novamente.\033[m")
 	# controle = False
 '''
-
 '''
 controle_01 = False
 while controle_01 == False:

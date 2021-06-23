@@ -1,4 +1,4 @@
-palavras = ("casa", "carro", "bicicleta", "computador", "paralelepipedo", "apartamento", "praia", "sofa", "cachorro")
+palavras = ("casa", "carro", "bicicleta", "computador", "paralelepípedo", "apartamento", "praia", "sofa", "cachorro")
 
 vogais = ("a", "e", "i", "o", "u")
 
@@ -12,4 +12,3 @@ for count in range(0, len(palavras)):
 		if item[count] in vogais : #and item[count] not in vogais_presentes: # Este complemento define a repetição ou não das vogais exibidas.
 			vogais_presentes.append(item[count])
 	print("\033[1;34m",vogais_presentes,"\033[m",end=" ")
-

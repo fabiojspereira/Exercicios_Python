@@ -5,8 +5,6 @@ pares = []
 #tupla = ( int(input(f"Digite o 1º valor a ser armazenado : ")), int(input(f"Digite o 1º valor a ser armazenado : ")),
 #		  int(input(f"Digite o 1º valor a ser armazenado : ")),int(input(f"Digite o 1º valor a ser armazenado : ")))
 
-
-
 tupla1 = int(input(f"Digite o 1º valor a ser armazenado : "))
 if tupla1 % 2 == 0:
 	pares.append(tupla1)
@@ -32,5 +30,3 @@ if 3 in tupla :
 else:
 	print("Não foi digitado nenhum número 3.")
 print(f"Números pares alocados : {pares}")
-
-

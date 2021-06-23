@@ -24,7 +24,6 @@ while esc_01 != 0:
 print("Total de termos : {}.".format(geral - 1))
 print("\nFinalizando")
 
-
 '''
 primeiro_t = int(input("\nDigite o primeiro termo da P.A. : "))
 razao = int(input("Digite a razão da P.A. : "))
@@ -52,7 +51,6 @@ while esc_01 != 0:
 			print("{:2}º Termo : {:3}.".format(geral, (primeiro_t + ((geral - 1) * razao))))
 			#count_02 = count_02 + 1
 			geral = geral + 1
-
 
 print("Total de termos : {}.".format(geral))
 print("\nFinalizando")

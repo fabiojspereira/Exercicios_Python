@@ -11,7 +11,6 @@ while count < 11:
 print("\nFim.")
 # for count in range ( 1, 11, 1 ): Caso queira fazer com for.
 
-
 '''
 Fórmula da P.A. : 
 PA = (a, a + r, a + 2r) onde a = primeiro_t // a + 1r = segundo termo // a + 2r = terceiro termo
@@ -19,5 +18,3 @@ PA = (a, a + r, a + 2r) onde a = primeiro_t // a + 1r = segundo termo // a + 2r 
 
 N-ézimo termo : an = a1 + (n – 1) . r
 '''
-
-

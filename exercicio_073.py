@@ -27,7 +27,3 @@ for count in range ( 0, len(ordem)):
 print("\nPosição do clube Chapecoense :")
 x = times.index("Chapecoense")+1
 print("Posição : {}".format(x))
-
-
-
-

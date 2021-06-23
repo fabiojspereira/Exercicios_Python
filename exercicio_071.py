@@ -47,7 +47,6 @@ print("\n>>>> Digite o valor do saque <<<<")
 print("Cédulas disponíveis : 100,50,20,10,1")
 valor = int(input("\nR$ "))
 
-
 novo_valor = 0
 
 qtd_nota_200 = qtd_nota_100 = qtd_nota_50 = qtd_nota_20 = qtd_nota_10 = qtd_nota_05 = qtd_nota_01 = 0

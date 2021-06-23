@@ -28,4 +28,3 @@ print("O maior número digitado foi o número {} e o menor foi {}".format(maior,
 print('\nPrograma finalizado.')
 #while esc_01 == "sim" or esc_01 == "s":
 #while esc_01 != lista_negativa[0] and esc_01 != lista_negativa[1] and esc_01 != lista_negativa[2]:
-

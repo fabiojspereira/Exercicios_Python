@@ -4,6 +4,7 @@ c = 0
 for count in range( 0, 5 ) :
 	lista.append(int(input(f"Digite o {count+1}º número da lista : ")))
 	#item_atual = lista[len(lista)-1] ou lista[-1]
+
 for count in range( 0, 5 ) :
 
 	if count == c :
