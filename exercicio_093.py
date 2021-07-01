@@ -17,5 +17,3 @@ dados_jogador ["total_gols"] = total_de_gols
 print(lista_de_gols)
 print()
 print(dados_jogador)
-
-
