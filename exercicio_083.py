@@ -17,8 +17,6 @@ if len(parenteses) == 0 :
 else :
 	print(f"A expressão {exp} é falsa !")
 
-
-
 '''
 (a*b)-)c(=12
 

@@ -14,6 +14,15 @@ for count in range ( 0, QTD_partidas ) :
 
 dados_jogador ["total_gols"] = total_de_gols
 
-print(lista_de_gols)
 print()
 print(dados_jogador)
+print()
+
+for chave, valor in dados_jogador.items() :
+	print(f"O campo {chave} tem o valor {valor}.")
+
+print()
+print(f"O jogador {dados_jogador ['Nome']}, participou de {QTD_partidas} partidas.")
+for count in range ( 0, QTD_partidas ) :
+	print(f"Na {count+1}° partida fez {lista_de_gols[count]} gol(s).")
+print(f"\nFoi um total de {dados_jogador ['total_gols']} gol(s)")
