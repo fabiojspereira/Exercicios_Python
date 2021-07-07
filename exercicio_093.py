@@ -18,8 +18,8 @@ print()
 print(dados_jogador)
 print()
 
-for chave, valor in dados_jogador.items() :
-	print(f"O campo {chave} tem o valor {valor}.")
+for chave, valor in dados_jogador.items() :			# Estrutura que percorre os dados dentro do dicionário
+	print(f"O campo {chave} tem o valor {valor}.")	# Estrutura que percorre os dados dentro do dicionário
 
 print()
 print(f"O jogador {dados_jogador ['Nome']}, participou de {QTD_partidas} partidas.")

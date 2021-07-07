@@ -1,7 +1,8 @@
 registro = dict()
 cadastro_geral = list()
+cad_mulher = list()
 
-QTD_mulher = QTD_cadastro = media_idade = soma_idade = 0
+QTD_mulher = QTD_cadastro = soma_idade = media_idade = 0
 
 continua_geral = True
 while continua_geral == True:
@@ -15,6 +16,7 @@ while continua_geral == True:
 			print("Opção inválida ! Tente novamente...")
 			continua_001 = True
 		elif registro["sexo"] == "f":
+			cad_mulher.append(registro["nome"])
 			QTD_mulher += 1
 			continua_001 = False
 		else:
@@ -30,7 +32,7 @@ while continua_geral == True:
 			print("Opção inválida ! Tente novamente...")
 
 	QTD_cadastro += 1
-	registro["idade"] = float(registro["idade"])
+	registro["idade"] = int(registro["idade"])
 	soma_idade = soma_idade + registro["idade"]
 	media_idade = soma_idade / QTD_cadastro
 
@@ -47,16 +49,32 @@ while continua_geral == True:
 			continua_003 = True
 			print("Opção inválida ! Tente novamente...")
 
+	#print(f"Registro atual que será gravado : {registro}\n")
 	cadastro_geral.append(registro.copy())  # forma de alimentar uma LISTA com dicionários.
+	#print(cadastro_geral)
 
 print()
 print(f"A quantidade de pessoas cadastradas foi de : {QTD_cadastro}.")
 print(f"A média de idade do grupo cadastrado é : {media_idade:.2f} anos.")
 print(f"A quantidade de mulheres é de : {QTD_mulher}.")
+print(f"As mulheres cadastradas foram : {cad_mulher}")
+print("Lista de pessoas acima da média de idade : ",end="")
+for count in range ( 0, len(cadastro_geral)) :
+	if cadastro_geral[count]["idade"] > media_idade :
+		print(f"{cadastro_geral[count]['nome']} com {cadastro_geral[count]['idade']} anos. ",end="")
+print()
+print("FIM DO PROGRAMA")
+
+
+
+'''
+# Mulheres cadastradas :
 print("As mulheres cadastradas foram : ", end="")
 for count in range(0, len(cadastro_geral)):
 	if cadastro_geral[count]["sexo"] == "f":
 		print(cadastro_geral[count]['nome'],end="-")
-
-print()
-print("FIM DO PROGRAMA")
+		
+		
+			if cadastro_geral[count]["idade"] > media_idade :
+		print(f"Lista de pessoas acima da média de idade : {cadastro_geral['nome']}")
+'''
