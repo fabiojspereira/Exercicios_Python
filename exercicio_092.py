@@ -3,12 +3,10 @@ from datetime import datetime
 cadastro = dict()
 
 cadastro["nome"] = str(input("Digite o nome do funcionário : "))
-
 ano_nascimento = int(input("Digite o ano de nascimento : "))
 ano_atual = datetime.now()
 idade = ( ano_atual.year - ano_nascimento )
 cadastro["idade"] = idade
-
 cadastro ["ctps"] = str(input("Digite o número da CTPS [ Digite '0' caso não tenha ] : "))
 
 if cadastro ["ctps"] != "0" :

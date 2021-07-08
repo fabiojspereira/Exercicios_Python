@@ -11,9 +11,8 @@ while continua_001 == True :
 	QTD_partidas = int(input(f"Digite a quantidade de jogos que { dados_jogador['nome']} participou : "))
 
 	for count in range ( 0, QTD_partidas ) :
-		QTD_gols = int(input(f"Digite a quantidade de gols na partida {count+1} : " ))
-		lista_de_gols.append(QTD_gols)
-		total_de_gols += QTD_gols
+		lista_de_gols.append(int(input(f"Digite a quantidade de gols na partida {count+1} : " )))
+		total_de_gols = sum(lista_de_gols)
 		dados_jogador ["gols"] = lista_de_gols[:]
 
 	lista_de_gols.clear()

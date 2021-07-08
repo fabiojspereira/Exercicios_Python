@@ -7,14 +7,11 @@ dados_jogador ["Nome"] = str(input("Digite o nome do jogador : ")).strip()
 QTD_partidas = int(input(f"Digite a quantidade de jogos que { dados_jogador['Nome']} participou : "))
 
 for count in range ( 0, QTD_partidas ) :
-	QTD_gols = int(input(f"Digite a quantidade de gols na partida {count+1} : " ))
-	lista_de_gols.append(QTD_gols)
-	total_de_gols += QTD_gols
+	lista_de_gols.append(int(input(f"Digite a quantidade de gols na partida {count+1} : " )))
 	dados_jogador ["gols"] = lista_de_gols[:]
 
-dados_jogador ["total_gols"] = total_de_gols
+dados_jogador ["total_gols"] = sum(lista_de_gols)
 
-print()
 print(dados_jogador)
 print()
 

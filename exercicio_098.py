@@ -9,13 +9,13 @@ def contador( inicio, fim, passo ):
 		passo = 1
 
 	print(f"\nContagem de {inicio} até {fim} de {passo} em {passo} : ")
-	sleep(1.5)
+	sleep(1)
 
 	if inicio < fim :
 		numero = inicio
 		while numero <= fim :
 			print(f"\033[1;34m{numero}\033[m",end=" ")
-			sleep(0.22)
+			sleep(0.25)
 			numero = numero + passo
 		print("\033[1;35m- FIM\033[m")
 
@@ -23,7 +23,7 @@ def contador( inicio, fim, passo ):
 		numero = inicio
 		while numero >= fim :
 			print(f"\033[1;34m{numero}\033[m",end=" ")
-			sleep(0.22)
+			sleep(0.25)
 			numero = numero - passo
 		print("\033[1;35m- FIM\033[m")
 

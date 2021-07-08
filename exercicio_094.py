@@ -49,7 +49,6 @@ while continua_geral == True:
 			continua_003 = True
 			print("Opção inválida ! Tente novamente...")
 
-	#print(f"Registro atual que será gravado : {registro}\n")
 	cadastro_geral.append(registro.copy())  # forma de alimentar uma LISTA com dicionários.
 	#print(cadastro_geral)
 
@@ -64,17 +63,3 @@ for count in range ( 0, len(cadastro_geral)) :
 		print(f"{cadastro_geral[count]['nome']} com {cadastro_geral[count]['idade']} anos. ",end="")
 print()
 print("FIM DO PROGRAMA")
-
-
-
-'''
-# Mulheres cadastradas :
-print("As mulheres cadastradas foram : ", end="")
-for count in range(0, len(cadastro_geral)):
-	if cadastro_geral[count]["sexo"] == "f":
-		print(cadastro_geral[count]['nome'],end="-")
-		
-		
-			if cadastro_geral[count]["idade"] > media_idade :
-		print(f"Lista de pessoas acima da média de idade : {cadastro_geral['nome']}")
-'''
