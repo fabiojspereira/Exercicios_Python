@@ -33,7 +33,7 @@ while continua_001 == True :
 			continua_002 = True
 			print("\033[1;31mOpção inválida... Tente novamente.\033[m")
 
-#print(lista_jogadores)
+print(lista_jogadores)
 #print(lista_jogadores[0]['gols'])
 #print(f"Quantidade de cadastros : {len(lista_jogadores)}")
 print(f"\033[1;34m{'ITEM':<10}{'NOME':<10}{'GOLS POR PARTIDA':<20}{'TOTAL DE GOLS':<20}\033[m")
