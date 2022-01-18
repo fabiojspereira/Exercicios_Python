@@ -9,4 +9,4 @@ if salario > 1250 :
 if salario <= 1250 :
     aumento = salario * 15 / 100
     novo_salario = salario + aumento
-    print("\nO aumento salarial foi de 15%. Isso Equivale a R$ {:.2f}. O seu salário agora é de : R$ {:.2f}.".format(aumento,novo_salario))
+    print("\nO aumento salarial foi de 15%. Isso equivale a R$ {:.2f}. O seu salário agora é de : R$ {:.2f}.".format(aumento,novo_salario))
