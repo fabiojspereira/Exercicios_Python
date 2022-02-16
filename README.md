@@ -2,7 +2,7 @@
 
 # Repositório : Exercícios_Python 
 
-### Este repositório é destinado às soluções dos exewrcícios do curso em vídeo de Gustavo Guanabara.
+### Este repositório é destinado às soluções dos exercícios do curso em vídeo de Gustavo Guanabara.
 #### [Curso em vídeo](https://www.cursoemvideo.com/cursos/)
 
 
