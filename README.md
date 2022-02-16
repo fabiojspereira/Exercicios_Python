@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
 
-# Repositório : Exercicios_Python 
+# Repositório : Exercícios_Python 
 
 ### Este repositório é destinado às soluções dos exewrcícios do curso em vídeo de Gustavo Guanabara.
 #### [Curso em vídeo](https://www.cursoemvideo.com/cursos/)
