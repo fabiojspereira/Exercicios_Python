@@ -1,5 +1,9 @@
-extenso = ("zero","um","dois","três","quatro","cinco","seis","sete","oito","nove","dez","onze","doze","treze","catorze",
-		   "quinze","dezesseis","dezessete","dezoito","dezenove","vinte")
+extenso = (
+	"zero", "um", "dois", "três", "quatro", "cinco",
+	"seis", "sete", "oito", "nove", "dez",
+	"onze", "doze", "treze", "catorze", "quinze",
+	"dezesseis", "dezessete", "dezoito", "dezenove", "vinte"
+	)
 
 continua = True
 while continua == True :

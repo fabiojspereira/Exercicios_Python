@@ -1,32 +1,47 @@
-tupla1 = tupla2 = tupla3 = tupla4 = ()
-pares = []
+tupla = tuple()
+numeros_pares = list()
 
-# Uma forma de receber os 4 valores diretamente para a tupla :
-#tupla = ( int(input(f"Digite o 1º valor a ser armazenado : ")), int(input(f"Digite o 1º valor a ser armazenado : ")),
-#		  int(input(f"Digite o 1º valor a ser armazenado : ")),int(input(f"Digite o 1º valor a ser armazenado : ")))
+tupla = (
+	int(input("Digite um valor : ")),
+	int(input("Digite um valor : ")),
+	int(input("Digite um valor : ")),
+	int(input("Digite um valor : "))
+	)
 
-tupla1 = int(input(f"Digite o 1º valor a ser armazenado : "))
-if tupla1 % 2 == 0:
-	pares.append(tupla1)
+print(f"A tupla foi criada : {tupla}")
 
-tupla2 = int(input(f"Digite o 2º valor a ser armazenado : "))
-if tupla2 % 2 == 0:
-	pares.append(tupla2)
+count_temp = 0
+contador = 0
+check = True
+for valor in range (0, len(tupla)):
+	if tupla[valor] == 9:
+		#print(f"{tupla[valor]}. Numero 9 digitado...")
+		contador += 1
 
-tupla3 = int(input(f"Digite o 3º valor a ser armazenado : "))
-if tupla3 % 2 == 0:
-	pares.append(tupla3)
+	if (tupla[valor]) % 2 == 0:
+		#print(f"{tupla[valor]}. Numero par digitado...")
+		numeros_pares.append(tupla[valor])
 
-tupla4 = int(input(f"Digite o 4º valor a ser armazenado : "))
-if tupla4 % 2 == 0:
-	pares.append(tupla4)
+	while check == True:
+		count_temp += 1
+		#print(f"ENTREI NO WHILE PELA {count_temp}º VEZ...")
+		if tupla[valor] == 3:
+			#print(f"{tupla[valor]}. Numero 3 digitado...")
+			pos_num_3 = valor
+			check = False
+			break
 
-tupla = tupla1, tupla2, tupla3, tupla4
-print(f"\nNúmeros digitados : {tupla} ")
-print(f"\nA quantidade de números 9 é de {tupla.count(9)}")
+		else:
+			#print(f"{tupla[valor]}. Numero qualquer digitado... foda-se...")
+			check = True
+			break
 
-if 3 in tupla :
-	print(f"O valor 3 foi digitado na {tupla.index(3)+1}º posição.")
+print(f"\nQuantidade de números 9 digitados é de : {contador} vez(es).")
+#print(f"\nA quantidade de números 9 é de {tupla.count(9)}")
+print(f"\nQuantidade de números pares digitados : {len(numeros_pares)}")
+print(f"Listagem de números pares digitados : {numeros_pares}")
+
+if check == True:
+	print(f"\nO valor 3 não foi digitado em nenhum momento ....")
 else:
-	print("Não foi digitado nenhum número 3.")
-print(f"Números pares alocados : {pares}")
+	print(f"\nO valor 3 foi digitado primeiramente na {pos_num_3 + 1}º posição.")

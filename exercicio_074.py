@@ -6,7 +6,7 @@ tupla = (randint(0, 10)), randint(0, 10), randint(0, 10), randint(0, 10), randin
 print(f"\nTupla : {tupla}", end="")
 maior = menor = tupla[0]
 
-for count in range( 0 , len(tupla) ):
+for count in range( 0, len(tupla) ):
 	if tupla[count] > maior:
 		maior = tupla[count]
 	if tupla[count] < menor:
@@ -15,8 +15,8 @@ for count in range( 0 , len(tupla) ):
 print(f"\nMaior Valor : {maior}")
 print(f"Menor Valor : {menor}")
 
-# Ou usar o método que tem dentro das tuplas, o max().
-print("\nUtilizando max() :")
+# Ou usar os métodos que tem dentro das tuplas, o max() e min().
+print("\nUtilizando max() e min() :")
 print(f"O maior valor sorteado foi {max(tupla)}")
 print(f"O menor valor sorteado foi {min(tupla)}")
 
