@@ -1,4 +1,3 @@
-
 n = 0
 soma = 0
 count = 0

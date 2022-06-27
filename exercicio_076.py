@@ -4,6 +4,6 @@ print("-"*65)
 print("{:^65}".format("LISTAGEM DE PREÇOS"))
 print("-"*65)
 
-for count in range ( 0 , len(produtos) , 2 ):
+for count in range ( 0, len(produtos), 2 ):
 	print("{:.<53}{}{:>8.2f}".format(produtos[count]," R$ ",produtos[count+1]))
 print("-"*65)

@@ -23,7 +23,7 @@ for valor in range (0, len(tupla)):
 		numeros_pares.append(tupla[valor])
 
 	while check == True:
-		count_temp += 1
+		#count_temp += 1
 		#print(f"ENTREI NO WHILE PELA {count_temp}º VEZ...")
 		if tupla[valor] == 3:
 			#print(f"{tupla[valor]}. Numero 3 digitado...")
