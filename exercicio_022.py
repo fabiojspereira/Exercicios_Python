@@ -1,5 +1,5 @@
 #nome_completo = str(input("Digite seu nome completo : ")).strip()
-nome_completo = str(input("Digite seu nome completo : "))
+nome_completo = str(input("Digite seu nome completo : ")).strip()
 print("Nome com todas as letras em maiúsculo : {}".format(nome_completo.upper()))
 print("Nome com todas as letras em minúsculo : {}".format(nome_completo.lower()))
 
