@@ -2,17 +2,17 @@ parenteses = []
 
 exp = str(input("Digite a expressão : ")).strip()
 
-for char in range ( 0 , len(exp)) :
-	if exp[char] == "(" :
+for char in range(0, len(exp)):
+	if exp[char] == "(":
 		parenteses.append("(")
-	elif exp[char] == ")" :
-		if len(parenteses) > 0 :
+	elif exp[char] == ")":
+		if len(parenteses) > 0:
 			parenteses.pop()
 		else :
 			parenteses.append(")")
 			break
 
-if len(parenteses) == 0 :
+if len(parenteses) == 0:
 	print(f"\nA expressão {exp} é verdadeira !")
 else :
 	print(f"A expressão {exp} é falsa !")
