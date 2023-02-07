@@ -18,7 +18,7 @@ for count_01 in range(0, qtd_jogos):
 
 		check_equal = True
 		while check_equal == True :
-			if numero_sorteado in jogo_criado :
+			if numero_sorteado in jogo_criado:
 				duplicados.append(numero_sorteado)
 				print("\033[1;30;41m Jogo {:^3} \033[m : Número [ \033[1;31m{}\033[m ] duplicado. Gerando novo número : ".format(count_01+1,numero_sorteado),end="")
 				numero_sorteado = randrange(1, 61, 1)

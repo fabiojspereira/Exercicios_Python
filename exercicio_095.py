@@ -7,16 +7,16 @@ total_de_gols = 0
 
 continua_001 = True
 while continua_001 == True :
-	dados_jogador ["nome"] = str(input("Digite o nome do jogador : ")).strip()
+	dados_jogador["nome"] = str(input("Digite o nome do jogador : ")).strip()
 	QTD_partidas = int(input(f"Digite a quantidade de jogos que { dados_jogador['nome']} participou : "))
 
-	for count in range ( 0, QTD_partidas ) :
+	for count in range(0, QTD_partidas):
 		lista_de_gols.append(int(input(f"Digite a quantidade de gols na partida {count+1} : " )))
 		total_de_gols = sum(lista_de_gols)
-		dados_jogador ["gols"] = lista_de_gols[:]
+		dados_jogador["gols"] = lista_de_gols[:]
 
 	lista_de_gols.clear()
-	dados_jogador ["total_gols"] = total_de_gols
+	dados_jogador["total_gols"] = total_de_gols
 	total_de_gols = 0
 	lista_jogadores.append(dados_jogador.copy())
 
@@ -38,7 +38,7 @@ print(lista_jogadores)
 #print(f"Quantidade de cadastros : {len(lista_jogadores)}")
 print(f"\033[1;34m{'ITEM':<10}{'NOME':<10}{'GOLS POR PARTIDA':<20}{'TOTAL DE GOLS':<20}\033[m")
 
-for count in range ( 0, len(lista_jogadores)) :
+for count in range(0, len(lista_jogadores)):
 	format_list_exib = str(lista_jogadores[count]["gols"])
 	print(f"{count+1:<10}{lista_jogadores[count]['nome']:<10}{format_list_exib:<20}{lista_jogadores[count]['total_gols']}")
 
@@ -51,7 +51,7 @@ while continua_003 == True :
 		for indice, valor in enumerate(lista_jogadores[mostrar_dados_jogador - 1]['gols']):
 			print(f"No jogo {indice + 1} fez {valor} gols.")
 
-	elif mostrar_dados_jogador == 999 :
+	elif mostrar_dados_jogador == 999:
 		continua_003 = False
 
 	else :
