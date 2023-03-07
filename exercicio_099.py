@@ -1,5 +1,6 @@
 from time import sleep
 
+
 def maior_numero (* numeros):
 	print()
 	print("*" * 80)
@@ -30,6 +31,7 @@ def maior_numero (* numeros):
 
 	print(f"O maior número é : {valor_maior}")
 	print("*" * 80)
+
 
 maior_numero(12, -1, 2, 23, 0, 7, 8, 9, 12)
 maior_numero(101,54, 56, 1, 27, 55, 100)
