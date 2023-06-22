@@ -1,5 +1,5 @@
-def area ( L, C ):
-	calc_area = ( L * C )
+def area(L, C):
+	calc_area = (L * C)
 	print(f"A área do terreno com largura {L:.2f}m e comprimento {C:.2f}m é {calc_area}m².")
 
 
